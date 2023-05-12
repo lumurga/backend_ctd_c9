@@ -1,5 +1,8 @@
-package com.backend;
+package com.backend.clase.test;
 
+import com.backend.clase.Persona;
+import com.backend.clase.Vacunatorio;
+import com.backend.clase.VacunatorioProxy;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
