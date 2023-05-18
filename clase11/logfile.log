@@ -1,0 +1,13 @@
+[2023-05-18 20:11:14] [ ERROR] [Animal:46] org.h2.Driver
+[2023-05-18 20:11:14] [ ERROR] [Animal:51] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-18 20:17:12] [ ERROR] [Animal:46] org.h2.Driver
+[2023-05-18 20:17:12] [ ERROR] [Animal:51] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-18 20:22:37] [ INFO ] [Animal:32] 1 - Homero - perro
+[2023-05-18 20:22:37] [ INFO ] [Animal:32] 2 - Cleo - perro
+[2023-05-18 20:22:37] [ INFO ] [Animal:32] 3 - Juana - gato
+[2023-05-18 20:22:37] [ INFO ] [Animal:32] 4 - China - gato
+[2023-05-18 20:22:37] [ INFO ] [Animal:32] 5 - Greta - gato
+[2023-05-18 20:22:37] [ INFO ] [Animal:41] 1 - Homero - perro
+[2023-05-18 20:22:37] [ INFO ] [Animal:41] 2 - Cleo - perro
+[2023-05-18 20:22:37] [ INFO ] [Animal:41] 4 - China - gato
+[2023-05-18 20:22:37] [ INFO ] [Animal:41] 5 - Greta - gato

@@ -4,3 +4,20 @@ Tamanio: 1
 [2023-05-17 22:07:15] [ INFO ] [TrianguloFactory:22] Triangulo encontrado: -- Triangulo --
 Color: verde
 Tamanio: 1
+[2023-05-18 11:56:35] [ ERROR] [AppTest:16] La lista se encuentra vacía
+[2023-05-18 11:56:35] [ INFO ] [App:18] La lista de enteros tiene mas de 5 elementos. Cantidad total de elementos: 6
+[59, 4, 45, 15, 3, 21]
+[2023-05-18 11:56:35] [ INFO ] [App:18] La lista de enteros tiene mas de 5 elementos. Cantidad total de elementos: 7
+[59, 4, 45, 15, 3, 21, 22]
+[2023-05-18 11:56:35] [ INFO ] [App:18] La lista de enteros tiene mas de 5 elementos. Cantidad total de elementos: 8
+[59, 4, 45, 15, 3, 21, 22, 23]
+[2023-05-18 11:56:35] [ INFO ] [App:18] La lista de enteros tiene mas de 5 elementos. Cantidad total de elementos: 9
+[59, 4, 45, 15, 3, 21, 22, 23, 14]
+[2023-05-18 11:56:35] [ INFO ] [App:18] La lista de enteros tiene mas de 5 elementos. Cantidad total de elementos: 10
+[59, 4, 45, 15, 3, 21, 22, 23, 14, 10]
+[2023-05-18 11:56:35] [ INFO ] [App:18] La lista de enteros tiene mas de 5 elementos. Cantidad total de elementos: 11
+[59, 4, 45, 15, 3, 21, 22, 23, 14, 10, 10]
+[2023-05-18 11:56:35] [ INFO ] [App:19] La lista de enteros tiene mas de 10 elementos. Cantidad total de elementos: 11
+[59, 4, 45, 15, 3, 21, 22, 23, 14, 10, 10]
+[2023-05-18 11:56:35] [ INFO ] [AppTest:29] El valor minimo en la lista es de 3
+[2023-05-18 11:56:35] [ INFO ] [AppTest:30] El valor maximo en la lista es de 59
