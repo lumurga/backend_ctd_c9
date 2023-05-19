@@ -1,0 +1,7 @@
+[2023-05-18 21:54:06] [ INFO ] [Usuario:13] Iniciando el metodo main...
+[2023-05-18 21:54:08] [ INFO ] [Usuario:25] -- Usuario -- Id: 1 - Nombre: Agustina - Apellido: Barca - Edad: 19
+[2023-05-18 21:54:08] [ INFO ] [Usuario:25] -- Usuario -- Id: 2 - Nombre: Tania - Apellido: Rodriguez - Edad: 42
+[2023-05-18 21:54:08] [ INFO ] [Usuario:25] -- Usuario -- Id: 3 - Nombre: Rodrigo - Apellido: Ruiz - Edad: 40
+[2023-05-18 21:54:08] [ WARN ] [Usuario:33] Se ha borrado el usuario con id 3
+[2023-05-18 21:54:08] [ INFO ] [Usuario:37] -- Usuario -- Id: 1 - Nombre: Agustina - Apellido: Barca - Edad: 19
+[2023-05-18 21:54:08] [ INFO ] [Usuario:37] -- Usuario -- Id: 2 - Nombre: Tania - Apellido: Rodriguez - Edad: 42
