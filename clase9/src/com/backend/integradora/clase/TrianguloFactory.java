@@ -16,10 +16,10 @@ public class TrianguloFactory {
         if(triangulo == null){
             triangulo = new Triangulo(color, tamanio);
             trianguloMap.put(color, triangulo);
-            if(LOGGER.isInfoEnabled()) LOGGER.info("Triangulo creado: " + triangulo);
+            if(LOGGER.isInfoEnabled()) LOGGER.info("Triangulo creado: \n" + triangulo);
 
         } else {
-            LOGGER.info("Triangulo encontrado: " + triangulo);
+            LOGGER.info("Triangulo encontrado: \n" + triangulo);
         }
 
         return triangulo;
