@@ -1,0 +1,18 @@
+[2023-05-24 22:14:45] [ INFO ] [DomicilioDaoH2:37] Se ha registrado el domicilio: Id: 3 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-24 22:14:45] [ INFO ] [PacienteDaoH2:43] Se ha registrado el paciente: Id: 3 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fechas de ingreso: 2023-05-02 - Domicilio: Id: 3 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-24 22:14:45] [ ERROR] [PacienteDaoH2:153] Parameter "#1" is not set; SQL statement:
+SELECT * FROM PACIENTES WHERE ID = ? [90012-214]
+[2023-05-24 22:16:46] [ INFO ] [DomicilioDaoH2:37] Se ha registrado el domicilio: Id: 4 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-24 22:16:46] [ INFO ] [PacienteDaoH2:43] Se ha registrado el paciente: Id: 4 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fechas de ingreso: 2023-05-02 - Domicilio: Id: 4 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-24 22:16:46] [ INFO ] [DomicilioDaoH2:147] Se ha encontrado el domicilio: Id: 3 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-24 22:16:46] [ INFO ] [PacienteDaoH2:150] Se ha encontrado el paciente con id 3: Id: 3 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fechas de ingreso: 2023-05-02 - Domicilio: Id: 3 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-24 22:27:34] [ ERROR] [PacienteDaoH2:115] Parameter "#1" is not set; SQL statement:
+DELETE FROM PACIENTES WHERE ID = ? [90012-214]
+[2023-05-24 22:27:35] [ INFO ] [DomicilioDaoH2:147] Se ha encontrado el domicilio: Id: 3 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-24 22:27:35] [ INFO ] [PacienteDaoH2:150] Se ha encontrado el paciente con id 3: Id: 3 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fechas de ingreso: 2023-05-02 - Domicilio: Id: 3 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-24 22:29:18] [ INFO ] [PacienteDaoH2:112] Se ha eliminado el paciente con id: 3
+[2023-05-24 22:29:18] [ INFO ] [PacienteDaoH2:150] Se ha encontrado el paciente con id 3: null
+[2023-05-24 22:33:05] [ INFO ] [DomicilioDaoH2:147] Se ha encontrado el domicilio: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts
+[2023-05-24 22:33:05] [ INFO ] [DomicilioDaoH2:147] Se ha encontrado el domicilio: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur
+[2023-05-24 22:33:05] [ INFO ] [DomicilioDaoH2:147] Se ha encontrado el domicilio: Id: 4 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-24 22:33:05] [ INFO ] [PacienteDaoH2:84] Listado de todos los pacientes: [Id: 1 - Nombre: Emiliano - Apellido: Cellilli - DNI: 35464856 - Fechas de ingreso: 2023-05-24 - Domicilio: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts, Id: 2 - Nombre: Pablo - Apellido: Clemente - DNI: 3548546 - Fechas de ingreso: 2023-05-24 - Domicilio: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur, Id: 4 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fechas de ingreso: 2023-05-02 - Domicilio: Id: 4 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia]

@@ -74,7 +74,7 @@ public class Medicamento {
     }
 
     @Override
-    public String toString(){
-        return "Id: " + id + " - Codigo: " + codigo + " - Nombre: " + nombre + " - Laboratorio: " + laboratorio + " - Cantidad: " + cantidad + " - Precio: $" + precio;
+    public String toString() {
+        return "\nId: " + id + " - Codigo: " + codigo + " - Nombre: " + nombre + " - Laboratorio: " + laboratorio + " - Cantidad: " + cantidad + " - Precio: $" + precio;
     }
 }

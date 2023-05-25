@@ -1,2 +1,126 @@
-[2023-05-22 23:24:56] [ INFO ] [MedicamentoDaoH2:37] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
-[2023-05-22 23:24:56] [ INFO ] [MedicamentoDaoH2:37] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 20:58:01] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 20:58:01] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 20:58:01] [ INFO ] [MedicamentoDaoH2:82] Listado de todos los medicamentos: [Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 20:58:01] [ INFO ] [MedicamentoDaoH2:122] Se ha encontrado el medicamento Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 20:58:01] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 20:58:01] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 20:58:01] [ INFO ] [MedicamentoDaoEnMemoria:35] Listado de todos los medicamentos: 
+[Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 20:58:01] [ INFO ] [MedicamentoDaoEnMemoria:42] El medicamento de id 1 ha sido encontrado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 20:58:33] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 20:58:33] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 20:58:33] [ INFO ] [MedicamentoDaoH2:82] Listado de todos los medicamentos: [Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 20:58:33] [ INFO ] [MedicamentoDaoH2:122] Se ha encontrado el medicamento Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 20:58:33] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 20:58:33] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 20:58:33] [ INFO ] [MedicamentoDaoEnMemoria:35] Listado de todos los medicamentos: 
+[Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 20:58:33] [ INFO ] [MedicamentoDaoEnMemoria:42] El medicamento de id 1 ha sido encontrado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:12:37] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:12:38] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:12:38] [ INFO ] [MedicamentoDaoH2:82] Listado de todos los medicamentos: [Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:12:38] [ INFO ] [MedicamentoDaoH2:122] Se ha encontrado el medicamento Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:12:38] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:12:38] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:12:38] [ INFO ] [MedicamentoDaoEnMemoria:35] Listado de todos los medicamentos: 
+[Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:12:38] [ INFO ] [MedicamentoDaoEnMemoria:42] El medicamento de id 1 ha sido encontrado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:13:31] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:13:31] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:13:31] [ INFO ] [MedicamentoDaoH2:82] Listado de todos los medicamentos: [Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:13:31] [ INFO ] [MedicamentoDaoH2:122] Se ha encontrado el medicamento Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:13:31] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:13:31] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:13:31] [ INFO ] [MedicamentoDaoEnMemoria:35] Listado de todos los medicamentos: 
+[Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:13:31] [ INFO ] [MedicamentoDaoEnMemoria:42] El medicamento de id 1 ha sido encontrado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:13:40] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:13:40] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:13:40] [ INFO ] [MedicamentoDaoH2:82] Listado de todos los medicamentos: [Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:13:40] [ INFO ] [MedicamentoDaoH2:122] Se ha encontrado el medicamento Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:13:40] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:13:40] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:13:40] [ INFO ] [MedicamentoDaoEnMemoria:35] Listado de todos los medicamentos: 
+[Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:13:40] [ INFO ] [MedicamentoDaoEnMemoria:42] El medicamento de id 1 ha sido encontrado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:15:36] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:15:36] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:15:36] [ INFO ] [MedicamentoDaoH2:82] Listado de todos los medicamentos: [Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:15:36] [ INFO ] [MedicamentoDaoH2:122] Se ha encontrado el medicamento Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:15:36] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:15:36] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:15:36] [ INFO ] [MedicamentoDaoEnMemoria:35] Listado de todos los medicamentos: 
+[Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:15:36] [ INFO ] [MedicamentoDaoEnMemoria:42] El medicamento de id 1 ha sido encontrado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:20:27] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:20:27] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:20:27] [ INFO ] [MedicamentoDaoH2:82] Listado de todos los medicamentos: [Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:20:27] [ INFO ] [MedicamentoDaoH2:122] Se ha encontrado el medicamento Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:20:27] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:20:27] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:20:27] [ INFO ] [MedicamentoDaoEnMemoria:35] Listado de todos los medicamentos: 
+[Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:20:27] [ INFO ] [MedicamentoDaoEnMemoria:42] El medicamento de id 1 ha sido encontrado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:22:11] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:22:11] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:22:11] [ INFO ] [MedicamentoDaoH2:82] Listado de todos los medicamentos: [Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:22:11] [ INFO ] [MedicamentoDaoH2:122] Se ha encontrado el medicamento Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:22:11] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:22:11] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:22:11] [ INFO ] [MedicamentoDaoEnMemoria:35] Listado de todos los medicamentos: 
+[Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:22:11] [ INFO ] [MedicamentoDaoEnMemoria:42] El medicamento de id 1 ha sido encontrado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:22:36] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:22:36] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:22:36] [ INFO ] [MedicamentoDaoH2:82] Listado de todos los medicamentos: [Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:22:36] [ INFO ] [MedicamentoDaoH2:122] Se ha encontrado el medicamento Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:22:36] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:22:36] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:22:36] [ INFO ] [MedicamentoDaoEnMemoria:35] Listado de todos los medicamentos: 
+[Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:22:36] [ INFO ] [MedicamentoDaoEnMemoria:42] El medicamento de id 1 ha sido encontrado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:23:10] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:23:10] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:23:10] [ INFO ] [MedicamentoDaoH2:82] Listado de todos los medicamentos: [Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:23:10] [ INFO ] [MedicamentoDaoH2:122] Se ha encontrado el medicamento Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:23:10] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:23:10] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:23:10] [ INFO ] [MedicamentoDaoEnMemoria:35] Listado de todos los medicamentos: 
+[Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:23:10] [ INFO ] [MedicamentoDaoEnMemoria:42] El medicamento de id 1 ha sido encontrado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:24:10] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:24:11] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:24:11] [ INFO ] [MedicamentoDaoH2:82] Listado de todos los medicamentos: [Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:24:11] [ INFO ] [MedicamentoDaoH2:122] Se ha encontrado el medicamento Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:24:11] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:24:11] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:24:11] [ INFO ] [MedicamentoDaoEnMemoria:35] Listado de todos los medicamentos: 
+[Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:24:11] [ INFO ] [MedicamentoDaoEnMemoria:42] El medicamento de id 1 ha sido encontrado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:24:34] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:24:34] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:24:34] [ INFO ] [MedicamentoDaoH2:82] Listado de todos los medicamentos: [Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:24:34] [ INFO ] [MedicamentoDaoH2:122] Se ha encontrado el medicamento Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:24:34] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:24:34] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:24:34] [ INFO ] [MedicamentoDaoEnMemoria:35] Listado de todos los medicamentos: 
+[Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:24:34] [ INFO ] [MedicamentoDaoEnMemoria:42] El medicamento de id 1 ha sido encontrado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:29:19] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:29:19] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:29:19] [ INFO ] [MedicamentoDaoH2:82] Listado de todos los medicamentos: [Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:29:19] [ INFO ] [MedicamentoDaoH2:122] Se ha encontrado el medicamento Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:29:19] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:29:19] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:29:19] [ INFO ] [MedicamentoDaoEnMemoria:35] Listado de todos los medicamentos: 
+[Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:29:19] [ INFO ] [MedicamentoDaoEnMemoria:42] El medicamento de id 1 ha sido encontrado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:30:53] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:30:53] [ INFO ] [MedicamentoDaoH2:38] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:30:53] [ INFO ] [MedicamentoDaoH2:82] Listado de todos los medicamentos: [Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:30:53] [ INFO ] [MedicamentoDaoH2:122] Se ha encontrado el medicamento Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:30:53] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:30:53] [ INFO ] [MedicamentoDaoEnMemoria:28] Medicamento guardado: Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
+[2023-05-23 23:30:53] [ INFO ] [MedicamentoDaoEnMemoria:35] Listado de todos los medicamentos: 
+[Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0, Id: 2 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0]
+[2023-05-23 23:30:53] [ INFO ] [MedicamentoDaoEnMemoria:42] El medicamento de id 1 ha sido encontrado: Id: 1 - Codigo: M35465 - Nombre: Aspirina - Laboratorio: Bayer - Cantidad: 50 - Precio: $200.0
