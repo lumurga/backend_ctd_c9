@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="PacienteServiceTest" time="5.781" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\maria.murga\Desktop\BACKEND\backend_ctd_c9\clase18maven\target\test-classes;C:\Users\maria.murga\Desktop\BACKEND\backend_ctd_c9\clase18maven\target\classes;C:\Users\maria.murga\.m2\repository\com\h2database\h2\2.1.214\h2-2.1.214.jar;C:\Users\maria.murga\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\maria.murga\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\maria.murga\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\maria.murga\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\maria.murga\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\maria.murga\.jdks\openjdk-18.0.1.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\maria.murga\AppData\Local\Temp\surefire4167846747989421632\surefirebooter13328441144145982235.jar C:\Users\maria.murga\AppData\Local\Temp\surefire4167846747989421632 2023-05-25T22-17-42_723-jvmRun1 surefire7544642186228037947tmp surefire_08239859928304927339tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\maria.murga\Desktop\BACKEND\backend_ctd_c9\clase18maven\target\test-classes;C:\Users\maria.murga\Desktop\BACKEND\backend_ctd_c9\clase18maven\target\classes;C:\Users\maria.murga\.m2\repository\com\h2database\h2\2.1.214\h2-2.1.214.jar;C:\Users\maria.murga\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\maria.murga\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\maria.murga\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\maria.murga\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\maria.murga\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\maria.murga"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Users\maria.murga\.jdks\openjdk-18.0.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\maria.murga\Desktop\BACKEND\backend_ctd_c9\clase18maven"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\maria.murga\AppData\Local\Temp\surefire4167846747989421632\surefirebooter13328441144145982235.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.1.1+2-6"/>
+    <property name="user.name" value="maria.murga"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\maria.murga\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MARIA~1.MUR\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.1.2"/>
+    <property name="java.version" value="18.0.1.1"/>
+    <property name="user.dir" value="C:\Users\maria.murga\Desktop\BACKEND\backend_ctd_c9\clase18maven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\maria.murga\.jdks\openjdk-18.0.1.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X86\;C:\Users\maria.murga\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Brackets\;C:\Users\maria.murga\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.1.1+2-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="deberiaAgregarUnPaciente" classname="PacienteServiceTest" time="3.896">
+    <system-out><![CDATA[[2023-05-25 22:18:00] [ INFO ] [DomicilioDaoH2:39] Se ha registrado el domicilio: Id: 5 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-25 22:18:01] [ INFO ] [PacienteDaoH2:43] Se ha registrado el paciente: Id: 5 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fechas de ingreso: 2023-05-02 - Domicilio: Id: 5 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+]]></system-out>
+  </testcase>
+  <testcase name="deberiaEliminarElPacienteConId3" classname="PacienteServiceTest" time="0.738">
+    <system-out><![CDATA[[2023-05-25 22:18:01] [ INFO ] [PacienteDaoH2:112] Se ha eliminado el paciente con id: 3
+[2023-05-25 22:18:01] [ INFO ] [PacienteDaoH2:150] Se ha encontrado el paciente con id 3: null
+]]></system-out>
+  </testcase>
+  <testcase name="listarTodosLosPacientes" classname="PacienteServiceTest" time="0.308">
+    <system-out><![CDATA[[2023-05-25 22:18:02] [ INFO ] [DomicilioDaoH2:149] Se ha encontrado el domicilio: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts
+[2023-05-25 22:18:02] [ INFO ] [DomicilioDaoH2:149] Se ha encontrado el domicilio: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur
+[2023-05-25 22:18:02] [ INFO ] [DomicilioDaoH2:149] Se ha encontrado el domicilio: Id: 4 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-25 22:18:02] [ INFO ] [DomicilioDaoH2:149] Se ha encontrado el domicilio: Id: 5 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-25 22:18:02] [ INFO ] [PacienteDaoH2:84] Listado de todos los pacientes: [Id: 1 - Nombre: Emiliano - Apellido: Cellilli - DNI: 35464856 - Fechas de ingreso: 2023-05-24 - Domicilio: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts, Id: 2 - Nombre: Pablo - Apellido: Clemente - DNI: 3548546 - Fechas de ingreso: 2023-05-24 - Domicilio: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur, Id: 4 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fechas de ingreso: 2023-05-02 - Domicilio: Id: 4 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia, Id: 5 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fechas de ingreso: 2023-05-02 - Domicilio: Id: 5 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia]
+]]></system-out>
+  </testcase>
+</testsuite>
