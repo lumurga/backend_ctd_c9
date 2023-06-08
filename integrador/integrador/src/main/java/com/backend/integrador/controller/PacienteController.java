@@ -37,24 +37,24 @@ public class PacienteController {
 
     //PUT
     @PutMapping("/actualizar")
-    public Paciente actualizarPaciente(@RequestBody Paciente paciente){
+    public Paciente actualizarPaciente(@RequestBody Paciente paciente) {
         return pacienteService.actualizarPaciente(paciente);
     }
 
     //GET
     @GetMapping
-    public List<Paciente> listarTodos(){
+    public List<Paciente> listarTodos() {
         return pacienteService.listarPacientes();
     }
 
     @GetMapping("/{id}")
-    public Paciente buscarPacientePorId(@PathVariable int id){
+    public Paciente buscarPacientePorId(@PathVariable int id) {
         return pacienteService.buscarPacientePorId(id);
     }
 
     //DELETE
     @DeleteMapping("/eliminar/{id}")
-    public void eliminarPaciente(@PathVariable int id){
+    public void eliminarPaciente(@PathVariable int id) {
         pacienteService.eliminarPaciente(id);
     }
 

@@ -1,8 +1,7 @@
 package com.backend.integrador.service.impl;
 
-
-import com.backend.integrador.dao.IDao;
 import com.backend.integrador.entity.Paciente;
+import com.backend.integrador.repository.IDao;
 import com.backend.integrador.service.IPacienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Formulario de alta de odontologo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/boostrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/post_odontologo.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="/odontologoList.html">Listar</a>
+        </li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-7" style="background-color:#e6fffa; margin: 80px auto; padding:10px; border-radius:3px">
+            <h2>Agregar odontólogo</h2>
+            <form id="add_new_odontologo">
+                <div class="form-group">
+                    <label class="control-label" for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese el nombre" required>
+                </div>
+                <!--copiar y replicar para el resto-->
+                <div class="form-group">
+                    <label class="control-label" for="apellido">Apellido:</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese el apellido" required>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="matricula">Matrícula:</label>
+                    <input type="number" class="form-control" id="matricula" placeholder="Ingrese la matrícula"
+                           required>
+                </div>
+                <button type="submit" class="btn btn-success" id="btn-add-new-odontologo">Registrar</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

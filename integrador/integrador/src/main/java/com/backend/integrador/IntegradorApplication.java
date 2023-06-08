@@ -1,6 +1,6 @@
 package com.backend.integrador;
 
-import com.backend.integrador.dao.H2Connection;
+import com.backend.integrador.repository.H2Connection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;

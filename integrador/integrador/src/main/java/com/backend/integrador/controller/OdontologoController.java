@@ -3,7 +3,6 @@ package com.backend.integrador.controller;
 import com.backend.integrador.entity.Odontologo;
 import com.backend.integrador.service.impl.OdontologoService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -30,30 +29,30 @@ public class OdontologoController {
 
     //GET
     @GetMapping()
-    public List<Odontologo> listarOdontologos(){
+    public List<Odontologo> listarOdontologos() {
         return odontologoService.listarOdontologos();
     }
 
     @GetMapping("/{id}")
-    public Odontologo buscarOdontologoPorId(@PathVariable int id){
+    public Odontologo buscarOdontologoPorId(@PathVariable int id) {
         return odontologoService.buscarOdontologoPorId(id);
     }
 
     //POST
     @PostMapping("/registrar")
-    public Odontologo registrarOdontologo(@RequestBody Odontologo odontologo){
+    public Odontologo registrarOdontologo(@RequestBody Odontologo odontologo) {
         return odontologoService.registrarOdontologo(odontologo);
     }
 
     //PUT
     @PutMapping("/actualizar")
-    public Odontologo actualizarOdontologo(@RequestBody Odontologo odontologo){
+    public Odontologo actualizarOdontologo(@RequestBody Odontologo odontologo) {
         return odontologoService.actualizarOdontologo(odontologo);
     }
 
     //DELETE
     @DeleteMapping("/eliminar/{id}")
-    public void eliminarOdontologo(@PathVariable int id){
+    public void eliminarOdontologo(@PathVariable int id) {
         odontologoService.eliminarOdontologo(id);
     }
 
