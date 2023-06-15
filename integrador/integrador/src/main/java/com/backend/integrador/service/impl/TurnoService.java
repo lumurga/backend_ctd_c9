@@ -4,7 +4,6 @@ import com.backend.integrador.dto.TurnoDto;
 import com.backend.integrador.entity.Turno;
 import com.backend.integrador.repository.IDao;
 import com.backend.integrador.service.ITurnoService;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

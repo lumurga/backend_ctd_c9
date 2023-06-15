@@ -6,10 +6,14 @@ import com.backend.integrador.entity.Paciente;
 import java.util.List;
 
 public interface IPacienteService {
-    List<Paciente> listarPacientes();
-    PacienteDto buscarPacientePorId(int id);
+    List<PacienteDto> listarPacientes();
+
+    PacienteDto buscarPacientePorId(Long id);
+
     PacienteDto guardarPaciente(Paciente paciente);
+
     PacienteDto actualizarPaciente(Paciente paciente);
-    void eliminarPaciente(int id);
+
+    void eliminarPaciente(Long id);
 
 }

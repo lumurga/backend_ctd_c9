@@ -6,6 +6,8 @@ import java.time.LocalDate;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class PacienteDto {
+
+    private Long id;
     private String nombre;
     private String apellido;
     private String dni;
@@ -15,7 +17,8 @@ public class PacienteDto {
     public PacienteDto() {
     }
 
-    public PacienteDto(String nombre, String apellido, String dni, LocalDate fechaIngreso, DomicilioDto domicilioDto) {
+    public PacienteDto(Long id, String nombre, String apellido, String dni, LocalDate fechaIngreso, DomicilioDto domicilioDto) {
+        this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.dni = dni;
@@ -61,5 +64,13 @@ public class PacienteDto {
 
     public void setDomicilioDto(DomicilioDto domicilioDto) {
         this.domicilioDto = domicilioDto;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }

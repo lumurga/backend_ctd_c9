@@ -2,7 +2,6 @@ package com.backend.integrador.service.impl;
 
 
 import com.backend.integrador.dto.OdontologoDto;
-import com.backend.integrador.dto.TurnoDto;
 import com.backend.integrador.entity.Odontologo;
 import com.backend.integrador.repository.IDao;
 import com.backend.integrador.service.IOdontologoService;

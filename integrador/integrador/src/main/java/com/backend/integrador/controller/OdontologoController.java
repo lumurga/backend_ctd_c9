@@ -1,17 +1,13 @@
 package com.backend.integrador.controller;
 
-import com.backend.integrador.entity.Odontologo;
-import com.backend.integrador.service.impl.OdontologoService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/odontologos")
 public class OdontologoController {
 
-
+/*
     private OdontologoService odontologoService;
 
     @Autowired
@@ -19,14 +15,6 @@ public class OdontologoController {
         this.odontologoService = odontologoService;
     }
 
-    /*@GetMapping("/index")
-    public String buscarOdontologo(Model model, @RequestParam("id") int id) {
-        Odontologo odontologo = odontologoService.buscarOdontologoPorId(id);
-
-        //agregar los atributos del objeto al modelo que mostraremos en la vista
-        model.addAttribute("matricula", odontologo.getMatricula());
-        return "index";
-    }*/
 
 
     //GET
@@ -57,5 +45,5 @@ public class OdontologoController {
     public void eliminarOdontologo(@PathVariable int id) {
         odontologoService.eliminarOdontologo(id);
     }
-
+*/
 }
