@@ -58,7 +58,7 @@ public class TurnoController {
         ResponseEntity<TurnoDto> respuesta;
         TurnoDto turnoDto = turnoService.actualizarTurno(turno);
         if (turnoDto != null) respuesta = new ResponseEntity<>(turnoDto, null, HttpStatus.OK);
-        else respuesta = ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        else respuesta = ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         return respuesta;
     }
 

@@ -12,13 +12,11 @@ import java.util.List;
 
 @Service
 public class TurnoService implements ITurnoService {
-    private IDao<Turno> turnoIDao;
-    private ObjectMapper objectMapper;
+    private final IDao<Turno> turnoIDao;
 
     @Autowired
-    public TurnoService(IDao<Turno> turnoIDao, ObjectMapper objectMapper) {
+    public TurnoService(IDao<Turno> turnoIDao) {
         this.turnoIDao = turnoIDao;
-        this.objectMapper = objectMapper;
     }
 
     @Override
@@ -28,15 +26,6 @@ public class TurnoService implements ITurnoService {
 
     @Override
     public List<TurnoDto> listarTodos() {
-        //List<Turno> turnoList = turnoIDao.listarTodos();
-        //List<TurnoDto> turnoDtoList = new ArrayList<>();
-        //for (Turno t : turnoList){
-        //turnoDtoList.add(TurnoDto.fromTurno(t));
-        //}
-        //return turnoDtoList;
-        //con lambda (funcion anonima)
-        //return turnoList.stream().map(t -> TurnoDto.fromTurno(t)).toList();
-        //con referencia al metodo
         return turnoIDao.listarTodos().stream().map(TurnoDto::fromTurno).toList();
     }
 

@@ -1,21 +1,17 @@
 package com.backend.integrador.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.time.LocalDateTime;
 
 public class Turno {
     private int id;
     private Paciente paciente;
     private Odontologo odontologo;
+
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm")
     private LocalDateTime fecha;
-
-    public Turno(int id, Paciente paciente, Odontologo odontologo, LocalDateTime fecha) {
-        this.id = id;
-        this.paciente = paciente;
-        this.odontologo = odontologo;
-        this.fecha = fecha;
-    }
-
     public Turno(Paciente paciente, Odontologo odontologo, LocalDateTime fecha) {
         this.paciente = paciente;
         this.odontologo = odontologo;

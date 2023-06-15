@@ -10,6 +10,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/odontologos")
 public class OdontologoController {
+
+
     private OdontologoService odontologoService;
 
     @Autowired
