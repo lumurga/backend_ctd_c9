@@ -2,6 +2,7 @@ package com.backend.integrador.entity;
 
 import javax.persistence.*;
 
+
 @Entity
 @Table(name = "DOMICILIOS")
 public class Domicilio {

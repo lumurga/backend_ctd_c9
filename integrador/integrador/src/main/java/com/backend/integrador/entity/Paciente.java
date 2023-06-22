@@ -1,12 +1,10 @@
 package com.backend.integrador.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.sun.istack.NotNull;
+import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.*;
-import javax.validation.constraints.FutureOrPresent;
-import javax.validation.constraints.Pattern;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 import java.time.LocalDate;
 
 @Entity
@@ -17,18 +15,23 @@ public class Paciente {
     private Long id;
 
     @Size(max = 50, message = "El nombre debe tener hasta 50 caracteres")
-    @NotNull
+    @NotNull(message = "El nombre el paciente no puede ser nulo")
+    @NotBlank(message = "Debe especificarse el nombre del paciente")
     private String nombre;
 
+
     @Size(max = 50, message = "El apellido debe tener hasta 50 caracteres")
-    @NotNull
+    @NotNull(message = "El apellido el paciente no puede ser nulo")
+    @NotBlank(message = "Debe especificarse el apellido del paciente")
     private String apellido;
-    @Pattern(regexp = "[/d]")
-    @Size(max = 12)
+    @Pattern(regexp = "\\d+", message = "El campo dni sólo admite caracteres numéricos")
+    @Length(max = 12)
+    @NotBlank(message = "Debe especificarse el dni del paciente")
     private String dni;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-    @FutureOrPresent
+    @FutureOrPresent(message = "La fecha no puede ser anterior al día de hoy")
+    @NotNull(message = "Debe especificarse la fecha de ingreso del paciente")
     private LocalDate fechaIngreso;
 
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
@@ -39,13 +42,13 @@ public class Paciente {
     public Paciente() {
     }
 
-
     public Paciente(String nombre, String apellido, String dni, LocalDate fechaIngreso, Domicilio domicilio) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.dni = dni;
         this.fechaIngreso = fechaIngreso;
         this.domicilio = domicilio;
+
     }
 
     public Long getId() {
@@ -91,6 +94,5 @@ public class Paciente {
     public void setDomicilio(Domicilio domicilio) {
         this.domicilio = domicilio;
     }
-
 
 }

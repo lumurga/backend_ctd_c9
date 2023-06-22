@@ -3,11 +3,12 @@ package com.backend.integrador.service;
 
 import com.backend.integrador.dto.OdontologoDto;
 import com.backend.integrador.entity.Odontologo;
+import com.backend.integrador.exceptions.ResourceNotFoundException;
 
 import java.util.List;
 
 public interface IOdontologoService {
-    OdontologoDto buscarOdontologoPorId(int id);
+    OdontologoDto buscarOdontologoPorId(Long id);
 
     List<OdontologoDto> listarOdontologos();
 
@@ -15,5 +16,5 @@ public interface IOdontologoService {
 
     OdontologoDto actualizarOdontologo(Odontologo odontologo);
 
-    void eliminarOdontologo(int id);
+    void eliminarOdontologo(Long id) throws ResourceNotFoundException;
 }

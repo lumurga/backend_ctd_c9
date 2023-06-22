@@ -1,7 +1,10 @@
 package com.backend.integrador.controller;
 
+
 import com.backend.integrador.dto.TurnoDto;
 import com.backend.integrador.entity.Turno;
+import com.backend.integrador.exceptions.BadRequestException;
+import com.backend.integrador.exceptions.ResourceNotFoundException;
 import com.backend.integrador.service.ITurnoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -23,12 +26,8 @@ public class TurnoController {
 
     //GET
     @GetMapping("/{id}")
-    public ResponseEntity<TurnoDto> buscarTurnoPorId(@PathVariable int id) {
-        ResponseEntity<TurnoDto> respuesta;
-        TurnoDto turnoDto = turnoService.buscarTurnoPorId(id);
-        if (turnoDto != null) respuesta = new ResponseEntity<>(turnoDto, null, HttpStatus.OK);
-        else respuesta = ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
-        return respuesta;
+    public ResponseEntity<?> buscarTurnoPorId(@PathVariable Long id) {
+        return new ResponseEntity<>(turnoService.buscarTurnoPorId(id), null, HttpStatus.OK);
     }
 
     @GetMapping()
@@ -38,28 +37,23 @@ public class TurnoController {
 
     //POST
     @PostMapping("/registrar")
-    public ResponseEntity<TurnoDto> guardarTurno(@RequestBody Turno turno) {
-        ResponseEntity<TurnoDto> respuesta;
-        TurnoDto turnoDto = turnoService.guardarTurno(turno);
-        if (turnoDto != null) respuesta = new ResponseEntity<>(turnoDto, null, HttpStatus.CREATED);
-        else respuesta = ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
-        return respuesta;
+    public ResponseEntity<TurnoDto> registrarTurno(@RequestBody Turno turno) throws BadRequestException {
+        return new ResponseEntity<>(turnoService.guardarTurno(turno), null, HttpStatus.CREATED);
     }
 
     //DELETE
     @DeleteMapping("/eliminar/{id}")
-    public void eliminarTurno(@PathVariable int id) {
+    public ResponseEntity<?> eliminarTurno(@PathVariable Long id) throws ResourceNotFoundException {
+
         turnoService.eliminarTurno(id);
+        return ResponseEntity.ok("Turno eliminado");
+
     }
 
     //PUT
     @PutMapping("/actualizar")
-    public ResponseEntity<TurnoDto> actualizarTurno(@RequestBody Turno turno) {
-        ResponseEntity<TurnoDto> respuesta;
-        TurnoDto turnoDto = turnoService.actualizarTurno(turno);
-        if (turnoDto != null) respuesta = new ResponseEntity<>(turnoDto, null, HttpStatus.OK);
-        else respuesta = ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-        return respuesta;
+    public ResponseEntity<TurnoDto> actualizarPaciente(@RequestBody Turno turno) {
+        return new ResponseEntity<>(turnoService.actualizarTurno(turno), null, HttpStatus.OK);
     }
 
 

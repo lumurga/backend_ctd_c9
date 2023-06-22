@@ -2,11 +2,14 @@ package com.backend.integrador.controller;
 
 import com.backend.integrador.dto.PacienteDto;
 import com.backend.integrador.entity.Paciente;
+import com.backend.integrador.exceptions.ResourceNotFoundException;
 import com.backend.integrador.service.IPacienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @CrossOrigin
 @RestController
@@ -39,22 +42,26 @@ public class PacienteController {
         else respuesta = ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         return respuesta;
     }
-/*
+
     //GET
     @GetMapping
-    public List<Paciente> listarTodos() {
+    public List<PacienteDto> listarTodos() {
         return pacienteService.listarPacientes();
     }
 
     @GetMapping("/{id}")
-    public Paciente buscarPacientePorId(@PathVariable int id) {
-        return pacienteService.buscarPacientePorId(id);
+    public ResponseEntity<PacienteDto> buscarPacientePorId(@PathVariable Long id) {
+        ResponseEntity<PacienteDto> respuesta;
+        PacienteDto pacienteDto = pacienteService.buscarPacientePorId(id);
+        if (pacienteDto != null) respuesta = new ResponseEntity<>(pacienteDto, null, HttpStatus.OK);
+        else respuesta = ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        return respuesta;
     }
 
     //DELETE
     @DeleteMapping("/eliminar/{id}")
-    public void eliminarPaciente(@PathVariable int id) {
+    public void eliminarPaciente(@PathVariable Long id) throws ResourceNotFoundException {
         pacienteService.eliminarPaciente(id);
     }
-*/
+
 }
