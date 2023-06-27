@@ -12,7 +12,6 @@ public class LocalDateTimeAdapter implements JsonSerializer<LocalDateTime>, Json
 
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 
-
     @Override
     public LocalDateTime deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context)
             throws JsonParseException {
